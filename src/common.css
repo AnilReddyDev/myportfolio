@@ -1,0 +1,6 @@
+#box img{
+    transition: all ease 0.3s;
+}
+#box:hover img{
+    scale:1.2
+}
