@@ -21,7 +21,7 @@ const App = () => {
         <div className="wave"></div>
         <Header />
         <Element name="home-section" className="element">
-        <div className="home-section w-screen h-screen ">
+        <div className="home-section w-full h-screen ">
           <Home/>
         </div>
       </Element>
