@@ -6,6 +6,8 @@
 }
 
 #heartBeat{
+    color: red;
+    font-size: 1.2rem;
     margin: 0px 8px;
     animation: plusebeat 1s ease  infinite ;
 }

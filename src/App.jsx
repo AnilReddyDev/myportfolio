@@ -14,7 +14,7 @@ const App = () => {
 
 
   return (
-    <div>
+    <div >
       {/* <CustomCursor/> */}
       <div className='home-container w-full h-screen'>
         <div className="wave"></div>

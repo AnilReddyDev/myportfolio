@@ -121,7 +121,7 @@ export default function Footer() {
                 </div>
                 <hr className='bg-black h-1' />
                 <div className="bottom w-full flex justify-center items-center h-1/5 ">
-                    <h1 className='text-black flex font-medium font-poppins'>Designed With <div id='heartBeat'> ❤️ </div> By <span><a href="https://www.linkedin.com/in/anil-reddy-513866227" target='_blank' className='ml-1 text-blue-900 underline'>Anil Reddy.</a></span></h1>
+                    <h1 className='text-black flex font-medium font-poppins'>Designed With <div id='heartBeat'>❤️</div> By <span><a href="https://www.linkedin.com/in/anil-reddy-513866227" target='_blank' className='ml-1 text-blue-900 underline'>Anil Reddy.</a></span></h1>
                 </div>
             </div>
         </div>
