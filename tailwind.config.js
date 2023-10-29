@@ -8,7 +8,8 @@ export default {
     extend: {
       height:{
         navh:"7vh",
-        bodyH:"93vh"
+        bodyH:"93vh",
+        height40rem:"40rem"
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans'],
@@ -18,9 +19,11 @@ export default {
       },
       colors:{
         redish:"#F5385D",
+        bluish:"#000031"
       },
       width:{
-        width40rem:"35rem"
+        width40rem:"35rem",
+        width30per:"33%"
       },
       animation: {
         'bounce-slow': 'bounce 2s ease 1',

@@ -8,6 +8,7 @@ import Work from './components/Work';
 import Home from './components/Home';
 import Header from './components/Header';
 import CustomCursor from './components/CustomCursor';
+import Footer from './components/Footer';
 
 const App = () => {
 
@@ -51,6 +52,8 @@ const App = () => {
           <Work />
         </div>
       </Element>
+
+      <Footer/>
     </div>
   );
 };
