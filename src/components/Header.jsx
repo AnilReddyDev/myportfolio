@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link, scroller } from 'react-scroll';
 export default function Header() {
-  const [active, setActive] = useState('home-section');
+  const [active, setActive] = useState('');
   const scrollTo = (section) => {
     scroller.scrollTo(section, {
       duration: 800,
@@ -24,7 +24,7 @@ export default function Header() {
           textDecoration: active === 'home-section' ? "underline" : "",
           fontSize: active === 'home-section' ? "1.1rem" : "",
           textUnderlineOffset: active === 'home-section' ? "0.5rem" : "",
-        }} className='hover:text-white hover:underline hover:underline-offset-8'>
+        }} className='hover:text-white cursor-pointer hover:underline hover:underline-offset-8'>
           <Link
             activeClass="active"
             to="home-section"
@@ -42,7 +42,7 @@ export default function Header() {
           textDecoration: active === 'about-section' ? "underline" : "",
           fontSize: active === 'about-section' ? "1.1rem" : "",
           textUnderlineOffset: active === 'about-section' ? "0.5rem" : "",
-        }} className='hover:text-white hover:underline hover:underline-offset-8'>
+        }} className='hover:text-white cursor-pointer hover:underline hover:underline-offset-8'>
           <Link
             activeClass="active"
             to="about-section"
@@ -60,7 +60,7 @@ export default function Header() {
           textDecoration: active === 'skills-section' ? "underline" : "",
           fontSize: active === 'skills-section' ? "1.1rem" : "",
           textUnderlineOffset: active === 'skills-section' ? "0.5rem" : "",
-        }} className='hover:text-white hover:underline hover:underline-offset-8'>
+        }} className='hover:text-white cursor-pointer hover:underline hover:underline-offset-8'>
           <Link
             activeClass="active"
             to="skills-section"
@@ -78,7 +78,7 @@ export default function Header() {
           textDecoration: active === 'education-section' ? "underline" : "",
           fontSize: active === 'education-section' ? "1.1rem" : "",
           textUnderlineOffset: active === 'education-section' ? "0.5rem" : "",
-        }} className='hover:text-white hover:underline hover:underline-offset-8'>
+        }} className='hover:text-white cursor-pointer hover:underline hover:underline-offset-8'>
           <Link
             activeClass="active"
             to="education-section"
@@ -96,7 +96,7 @@ export default function Header() {
           textDecoration: active === 'work-section' ? "underline" : "",
           fontSize: active === 'work-section' ? "1.1rem" : "",
           textUnderlineOffset: active === 'work-section' ? "0.5rem" : "",
-        }} className='hover:text-white hover:underline hover:underline-offset-8'>
+        }} className='hover:text-white cursor-pointer hover:underline hover:underline-offset-8'>
           <Link
             activeClass="active"
             to="work-section"
