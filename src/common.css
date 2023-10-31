@@ -12,6 +12,18 @@
     animation: plusebeat 1s ease  infinite ;
 }
 
+#projectCon #projectSlider{
+    transition: all ease 0.2s;
+}
+#projectCon:hover{
+    transform: perspective(500px) rotateX(5deg);
+    rotate: 0.15deg;
+    transition: all ease 0.4s;
+}
+#projectCon:hover #projectSlider{
+    top: 70px;
+}
+
 @keyframes plusebeat {
     100%{
         scale: 1.2;
