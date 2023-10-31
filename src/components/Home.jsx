@@ -13,12 +13,12 @@ export default function Home() {
    
   };
     return (
-        <div className=' h-full w-full flex  flex-wrap justify-between items-center'>
-            <div className='left ml-32 mb-20'>
-                <h1 className='text-6xl mb-5 font-bold font-poppins text-violet-950'>Hi there,</h1>
-                <h1 className='text-6xl mb-4 font-bold font-poppins text-violet-950'>I'm Anil <span className=' text-orange-600'>Reddy</span></h1>
-                <h1 className='text-4xl font-semibold font-poppins text-slate-100'>Web Developer</h1>
-                <button className='py-2.5 px-8 mt-6 mb-11 shadow-md shadow-orange-500 font-poppins font-semibold text-white bg-orange-600 rounded-full'><Link
+        <div className=' h-full w-full flex pt-navb sm:pt-0  flex-wrap justify-between items-center'>
+            <div className='left ml-5 mb-2 mt-2 sm:ml-32 sm:mb-20'>
+                <h1 className='text-4xl sm:text-6xl mb-1 sm:mb-5 font-bold font-poppins text-violet-950'>Hi there,</h1>
+                <h1 className='text-4xl sm:text-6xl mb-1 sm:mb-4 font-bold font-poppins text-violet-950'>I'm Anil <span className=' text-orange-600'>Reddy</span></h1>
+                <h1 className='text-3xl sm:text-4xl font-semibold font-poppins text-slate-100'>Web Developer</h1>
+                <button className='py-2.5 px-8 mt-3 sm:mt-6 mb-5 sm:mb-11 shadow-md shadow-orange-500 font-poppins font-semibold text-white bg-orange-600 rounded-full'><Link
             activeClass="active"
             to="about-section"
             spy={true}
@@ -78,8 +78,8 @@ export default function Home() {
                 </ul>
 
             </div>
-            <div id='box' className='right animate-bounce-slow mr-32 shadow-md shadow-yellow-300 hover:shadow-lg hover:shadow-gray-500  bg-yellow-400 w-96 flex justify-end  rounded-full overflow-hidden'>
-                <img src={bitmojiimg} alt="anilimg"  className=' w-auto h-auto ml-5' />
+            <div id='box' className='right animate-bounce-slow mx-5 sm:mr-32 shadow-md shadow-yellow-300 hover:shadow-lg hover:shadow-gray-500  bg-yellow-400 w-72 mb-16 sm:mb-0 sm:w-96 flex justify-end  rounded-full overflow-hidden'>
+                <img src={bitmojiimg} alt="anilimg"  className='w-48 sm:w-auto sm:h-auto sm:ml-5' />
             </div>
         </div>
     )

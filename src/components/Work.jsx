@@ -33,7 +33,7 @@ export default function Work() {
     },
     {
       Title: "Expenses Splitter",
-      img: "https://github.com/CatsOnTree/PortfolioImgs/blob/main/TodoSaverImg.png?raw=true",
+      img: "https://github.com/CatsOnTree/PortfolioImgs/blob/main/Sharethebill.png?raw=true",
       desc: "Expense Splitter: Effortlessly Manage and Split Expenses, crafted with Reactjs and TailwindCSS",
       viewCodeLink: "https://github.com/AnilReddyDev/BillSplittingWebsite",
       viewliveWebsite: "https://sharethebill.netlify.app/"
