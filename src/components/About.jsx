@@ -4,14 +4,14 @@ import anilimg from '../assets/anilimg2.jpg'
 export default function About() {
   return (
     <div className='w-full font-poppins pt-navb h-screen bg-slate-200'>
-      <div className='w-full my-7 flex justify-center items-center gap-1'>
+      <div className='w-full mt-2 sm:my-7 flex justify-center items-center gap-1'>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10">
           <path fillRule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clipRule="evenodd" />
         </svg>
-        <h1 className='text-4xl font-semibold text-center'>About <span className='text-violet-900'>Me</span></h1>
+        <h1 className='text-3xl sm:text-4xl font-semibold text-center'>About <span className='text-violet-900'>Me</span></h1>
       </div>
-      <div className='w-full mt-20 flex-wrap py-12 gap-12 justify-center items-center flex'>
-        <div className='left w-96 rounded-xl shadow-lg shadow-gray-700 h-96 flex items-center overflow-hidden bg-yellow-300' id='box'>
+      <div className='w-full mt-1 sm:mt-20 flex-wrap py-5 sm:py-12 gap-3 sm:gap-12 justify-center items-center flex'>
+        <div className='left w-64 sm:w-96 rounded-xl shadow-lg shadow-gray-700 sm:h-96 flex items-center overflow-hidden bg-yellow-300' id='box'>
           <img src={anilimg} alt="anil img" className='' />
         </div>
         <div className='right font-poppins w-width40rem h-96 '>
