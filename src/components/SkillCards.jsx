@@ -81,9 +81,9 @@ export default function SkillCards() {
     <div className='flex gap-3 w-auto h-full flex-wrap justify-center items-center'>
         {
             skillsinfo.map((skill)=>{
-                return <div key={skill.prgmName} className=' w-40 h-36 bg-black rounded-lg flex gap-2 justify-center items-center flex-col'>
+                return <div key={skill.prgmName} className=' w-24 h-auto py-2  sm:w-40 sm:h-36 bg-black rounded-lg flex gap-2 justify-center items-center flex-col'>
                     <img src={skill.imgLink} alt="css" className=' w-16 h-16 opacity-100' />
-                    <h1 className=' text-xl text-white font-semibold'>{skill.prgmName}</h1>
+                    <h1 className='text-md sm:text-xl text-white font-semibold'>{skill.prgmName}</h1>
                     </div>
             })
         }
