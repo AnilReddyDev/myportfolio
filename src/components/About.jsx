@@ -16,12 +16,12 @@ export default function About() {
         </div>
         <div className='right font-poppins w-width40rem h-96 px-5 pt-2 sm:pt-0 sm:px-0'>
           <h1 className='text-2xl font-bold mt-2 sm:mt-0 '>I'm Anil Reddy</h1>
-          <h1 className='text-lg font-semibold text-violet-900'>Full stack developer</h1>
-          <p className='font-medium text-sm my-1 sm:my-3'>I'm a passionate Full-Stack developer hailing
+          <h1 className='text-lg font-semibold text-violet-900'>Web developer</h1>
+          <p className='font-medium text-sm my-1 sm:my-3'>I'm a passionate Web developer hailing
             from the vibrant city of Hyderabad, India. I am an 3rd
             CSE(AI&ML) undergraduate from MRU(Malla Reddy University). As a
             university student, I'm dedicated to enhancing my capabilities,
-            and I enjoy reimagining and building MERN stack applications,
+            and I enjoy reimagining and building Reactjs applications,
             transforming ideas into memorable digital experiences.</p>
           <p className=' font-medium mb-1 sm:mb-4' ><span className='text-blue-600'>Email :</span> konyalaanilreddy00@gamil.com</p>
           <p className=' font-medium'><span className='text-blue-600'>Place :</span> Hyderabad, India - 500100</p>
