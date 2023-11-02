@@ -19,7 +19,8 @@ export default {
       },
       colors:{
         redish:"#F5385D",
-        bluish:"#000031"
+        bluish:"#000031",
+        navbarc:"#0E0F31",
       },
       width:{
         width40rem:"35rem",

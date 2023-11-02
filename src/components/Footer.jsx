@@ -10,19 +10,19 @@ export default function Footer() {
         });
     };
     return (
-        <div className='w-full h-80 flex justify-center items-center  bg-slate-50'>
-            <div className="mainCon w-4/5 h-80 ">
-                <div className="top w-full flex h-4/5 flex-wrap ">
-                    <div className=' w-width30per font-poppins flex flex-col justify-evenly text-black h-full '>
+        <div className='w-full h-auto sm:h-80 flex justify-center items-center  bg-slate-50'>
+            <div className="mainCon w-4/5 h-auto sm:h-80 ">
+                <div className="top w-full flex flex-col h-4/5 sm:flex-row ">
+                    <div className='w-full sm:w-width30per pt-5 sm:pt-0 font-poppins flex flex-col justify-evenly text-black h-full '>
                         <h1 className='text-2xl font-medium'>Anil's Portfolio</h1>
                         <p className='font-medium text-black'>
                             Thanks for exploring my personal portfolio website. Let's stay connected through social media platforms.
                         </p>
                         <p className='font-medium text-black'>
-                            Soar to new heights 🚀. Feel free to reach out to me via live chat!
+                            Soar to new heights 🚀. Feel free to reach out to me via email or social media!
                         </p>
                     </div>
-                    <div className=' w-width30per font-poppins pl-10 pt-7 flex flex-col gap-1 h-full '>
+                    <div className='w-full  sm:w-width30per font-poppins sm:pl-10 pt-7 flex flex-col gap-1 h-full '>
                         <h1 className='text-2xl mb-1 font-medium'>Quick Links</h1>
                         <span>
                             <Link
@@ -95,7 +95,7 @@ export default function Footer() {
                             </Link>
                         </span>
                     </div>
-                    <div className=' w-width30per font-poppins pl-5 pt-7 flex flex-col gap-3 h-full '>
+                    <div className='w-full sm:w-width30per font-poppins sm:pl-5 pt-7 pb-4 sm:pb-0 flex flex-col gap-3 h-full '>
                         <h1 className='text-2xl mb-1 font-medium'>Contact Info</h1>
                         < div className='flex gap-1'>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 rotate-60">
@@ -120,7 +120,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <hr className='bg-black h-1' />
-                <div className="bottom w-full flex justify-center items-center h-1/5 ">
+                <div className="bottom w-full flex justify-center items-center py-4 sm:py-0 h-1/5 ">
                     <h1 className='text-black flex font-medium font-poppins'>Designed With <div id='heartBeat'>❤️</div> By <span><a href="https://www.linkedin.com/in/anil-reddy-513866227" target='_blank' className='ml-1 text-blue-900 underline'>Anil Reddy.</a></span></h1>
                 </div>
             </div>
