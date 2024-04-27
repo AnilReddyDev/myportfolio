@@ -27,17 +27,8 @@ export default function SkillCards() {
             imgLink:"https://skillicons.dev/icons?i=java"
         },
         {
-            prgmName:"C",
-            imgLink:"https://skillicons.dev/icons?i=c"
-        },
-
-        {
             prgmName:"Python",
             imgLink:"https://skillicons.dev/icons?i=python"
-        },
-        {
-            prgmName:"R",
-            imgLink:"https://skillicons.dev/icons?i=r"
         },
         {
             prgmName:"HTML5",
@@ -52,16 +43,12 @@ export default function SkillCards() {
             imgLink:"https://skillicons.dev/icons?i=tailwindcss"
         },
         {
-            prgmName:"Git",
+            prgmName:"Git bash",
             imgLink:"https://skillicons.dev/icons?i=git"
         },
         {
             prgmName:"Github",
             imgLink:"https://skillicons.dev/icons?i=github"
-        },
-        {
-            prgmName:"Firebase",
-            imgLink:"https://skillicons.dev/icons?i=firebase"
         },
         {
             prgmName:"Netlify",

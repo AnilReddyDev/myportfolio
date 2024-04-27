@@ -1,7 +1,23 @@
 import React from 'react'
 import '../common.css'
 import anilimg from '../assets/anilimg2.jpg'
+import AnilReddyResume from '../assets/Resume/AnilReddyResume.pdf';
 export default function About() {
+  const downloadResume = async () => {
+    try {
+      const response = await fetch(AnilReddyResume);
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', 'AnilReddyResume.pdf');
+      document.body.appendChild(link);
+      link.click();
+      link.parentNode.removeChild(link);
+    } catch (error) {
+      console.error('Error downloading the PDF:', error);
+    }
+  };
   return (
     <div className='w-full font-poppins pt-navb pb-8 sm:pb-0 sm:h-screen bg-slate-200'>
       <div className='w-full mt-2 sm:my-7 flex justify-center items-center gap-1'>
@@ -25,7 +41,7 @@ export default function About() {
             transforming ideas into memorable digital experiences.</p>
           <p className=' font-medium mb-1 sm:mb-4' ><span className='text-blue-600'>Email :</span> konyalaanilreddy00@gamil.com</p>
           <p className=' font-medium'><span className='text-blue-600'>Place :</span> Hyderabad, India - 500100</p>
-          <button className='w-32 inline-flex hover:gap-1 transition-all ease-in duration-75 justify-center items-center h-12 text-white rounded-md sm:mt-5 mt-3 shadow-md text-md shadow-blue-600 bg-blue-800'>Resume <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className=" w-5 h-5">
+          <button onClick={downloadResume} className='w-32 inline-flex hover:gap-1 transition-all ease-in duration-75 justify-center items-center h-12 text-white rounded-md sm:mt-5 mt-3 shadow-md text-md shadow-blue-600 bg-blue-800'>Resume <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className=" w-5 h-5">
             <path fillRule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clipRule="evenodd" />
           </svg>
 
